@@ -21,6 +21,9 @@ const Navbar = () => {
              <Link to="/join-meeting">Join Meeting</Link>
         </li>
         <li>
+          <Link to="/start-experience">Start Experience</Link>
+        </li>
+        <li>
              <Link to="/left-meeting">Left Meeting</Link>
         </li>
         <li>

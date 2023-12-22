@@ -8,6 +8,7 @@ import EndMeeting from './components/EndMeeting';
 import StartMeeting from './components/StartMeeting';
 import JoinMeeting from './components/JoinMeeting';
 import LefttMeeting from './components/LeftMeeting';
+import StartExperience from './components/StartExperience';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/create-room' element={<RoomCreate />} />
           <Route path='/start-meeting' element={<StartMeeting />} />
           <Route path='/join-meeting' element={<JoinMeeting/>} />
+          <Route path='/start-experience' element={<StartExperience/>}/>
           <Route path='/left-meeting' element={<LefttMeeting/>} />
           <Route path="/end-meeting" element={<EndMeeting />} />
           {/* Add more routes for other components */}
