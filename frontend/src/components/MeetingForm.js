@@ -9,6 +9,7 @@ const MeetingForm = () => {
     project_id: '',
     name: '',
     category: '',
+    hosts: '',
     'room[password]': '',
     'schedule[duration_min]': '',
     'schedule[starts_at]': '',
@@ -65,6 +66,9 @@ const MeetingForm = () => {
 
       <label>Category:</label>
       <input type="text" onChange={e => handleChange('category', e.target.value)} />
+
+      <label>Host</label>
+      <input type='text' onChange={e=> handleChange('hosts', e.target.value)}/>
 
       <label>Room Password:</label>
       <input
