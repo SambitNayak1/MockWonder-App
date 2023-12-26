@@ -6,6 +6,7 @@ import './MeetingForm.css';
 const LefttMeeting = () => {
   const [formData, setFormData] = useState({
     uuid: '',
+    project_id: '',
   });
   
   const [authorizationToken, setAuthorizationToken] = useState('');
@@ -49,7 +50,8 @@ const LefttMeeting = () => {
 
       <label>Meeting ID:</label>
       <input type="text" onChange={e => handleChange('uuid', e.target.value)} />
-
+      <label>Project ID:</label>
+      <input type="text" onChange={e => handleChange('project_id', e.target.value)} />
      
 
       <button onClick={handleLeftMeeting}>Submit</button>
