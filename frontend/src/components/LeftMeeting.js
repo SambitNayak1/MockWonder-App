@@ -17,7 +17,7 @@ const LefttMeeting = () => {
     }));
   };
 
-  const handleStartMeeting = async () => {
+  const handleLeftMeeting = async () => {
     try {
       const apiResponse = await axios.post(
         'https://api.tstvixr.in/v2/wonder/meeting/left',
@@ -52,7 +52,7 @@ const LefttMeeting = () => {
 
      
 
-      <button onClick={handleStartMeeting}>Submit</button>
+      <button onClick={handleLeftMeeting}>Submit</button>
        </div>
        
     </div>
