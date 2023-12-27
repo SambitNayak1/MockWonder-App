@@ -9,7 +9,7 @@ const MeetingForm = () => {
     project_id: '',
     name: '',
     category: '',
-    'hosts[]': '',
+    hosts: [],
     'room[password]': '',
     'schedule[duration_min]': '',
     'schedule[starts_at]': '',
